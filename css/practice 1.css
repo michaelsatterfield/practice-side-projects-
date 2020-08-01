@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+ul {
+
+
+    text-decoration: none;
+}
+
+.nav-bar{
+    background-color: olive;
+    padding: 1em;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding:0  1em;
+
+    font-size: 25px;
+}
+a{
+
+    text-decoration: none;
+    font-family: "Brush Script MT";
+    color: black;
+}
+img{
+    width: 20em;
+    border-radius: 160px;
+    margin: 3em;
+}
