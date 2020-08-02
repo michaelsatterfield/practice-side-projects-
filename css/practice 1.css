@@ -1,5 +1,19 @@
 body{
-    background-color: antiquewhite;
+    background-image:url("../img/Yaddle-SWE.jpg");
+    background-repeat: no-repeat;
+    background-position:5% 70% ;
+}
+.yaddle{
+    display: block;
+    width: 8em;
+    height: 12em;
+    position: absolute;
+    margin-left:4em ;
+    margin-top: 4em;
+    padding:6em;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: aliceblue;
+
 }
 
 
@@ -33,4 +47,20 @@ img{
     width: 20em;
     border-radius: 160px;
     margin: 3em;
+}
+div {
+    /*width: 100px;*/
+    height: 550px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    /*25%  {background-color:yellow; left:200px; top:0px;}*/
+    /*50%  {background-color:blue; left:200px; top:200px;}*/
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
 }
