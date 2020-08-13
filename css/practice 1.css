@@ -40,12 +40,12 @@ ul {
 a{
 
     text-decoration: none;
-    font-family: "Brush Script MT";
+    font-family: "Big Caslon";
     color: black;
 }
 img{
     width: 20em;
-    border-radius: 160px;
+    border-radius: 16px;
     margin: 3em;
 }
 div {
@@ -59,8 +59,8 @@ div {
 }
 @keyframes example {
     0%   {background-color:red; left:0px; top:0px;}
-    /*25%  {background-color:yellow; left:200px; top:0px;}*/
-    /*50%  {background-color:blue; left:200px; top:200px;}*/
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
     75%  {background-color:green; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:0px;}
-}
+}got
