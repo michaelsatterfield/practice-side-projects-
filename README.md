@@ -1,2 +1,3 @@
 # practice-side-projects-
-repo for practice projects and better understasnding
+repo for fun practice projects and better understanding
+of JS, Java, mySQl ,CSS, HTML, Etc
