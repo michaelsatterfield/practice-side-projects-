@@ -44,23 +44,31 @@ a{
     color: black;
 }
 img{
+
     width: 20em;
-    border-radius: 16px;
-    margin: 3em;
+    border-radius: 160px;
+    margin: 5em;
 }
 div {
-    /*width: 100px;*/
+    width: 500px;
     height: 550px;
     position: relative;
     background-color: red;
-    animation-name: example;
+    animation-name: moveBox;
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
-@keyframes example {
+@keyframes moveBox {
     0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    10%   {background-color:red; left:0px; top:0px;}
+
+    25%  {background-color:green; left:0px; top:500px;}
+    /*35%   {background-color:red; left:0px; top:100px;}*/
+    50%  {background-color:red; left:475px; top:500px;}
+    75%  {background-color:green; left:475px; top:0px;}
+    /*85%  {background-color:red; left:500px; top:300px;}*/
+    /*95%  {background-color:green; left:500px; top:100px;}*/
+    /*96% {background-color:red; left:250px; top:0px;}*/
+    100%  {background-color:red; left:0px; top:0px;}
+
 }got
