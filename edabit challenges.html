@@ -83,6 +83,37 @@ function animals(chickens, cows, pigs) {
 console.log(animals(3,4,5));
 
 
+function profitableGamble(prob, prize, pay) {
+    if (prob * prize > pay) {
+        return true
+    }   else {
+        return false
+    }
+}
+
+//or return prob * prize > pay
+console.log(profitableGamble(.3, 5, 1))
+
+
+function filterArray(arr) {
+
+    let filt = int =>Number.isInteger(int)
+    return arr.filter(filt);
+
+}
+
+console.log(filterArray([1,2,'r',4,'5']))
+
+
+function lessThan100(a, b) {
+    if (a + b < 100) {
+        return true
+    } else {
+        return false
+    }
+}
+
+console.log(lessThan100(20, 50));
 
 
 
